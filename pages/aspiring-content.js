@@ -1,5 +1,39 @@
 import Head from 'next/head'
 
+const portoData = [{
+  title: 'Video Ali',
+  category: 'Instagram short vidoe',
+  size: {width: '20vw', height: '520px'},
+},
+{
+  title: 'Video Ali',
+  category: 'Instagram short vidoe',
+  size: {width: '40vw', height: '520px'},
+},
+{
+  title: 'Video Ali',
+  category: 'Instagram short vidoe',
+  size: {width: '64vw', height: '520px'},
+}
+]
+
+function ThumbnailSize (props) {
+  return (
+    <div style={props.portoData.size} className="grid-item porto-margin category-mobile category-animation wow fadeInUp" data-wow-delay=".1s">
+                <a href="single-project-branding.html">
+                  <div className="project-item" style={{backgroundColor: '#e96437'}}>
+                    <div className="project-metro-photo"><img src="img/pic62.jpg" alt="" /></div>
+                    <div className="project-metro-date">2018</div>
+                    <div className="project-metro-detail">
+                      <h2 className="project-metro-title font-abril">{props.portoData.title}</h2>
+                      <div className="project-metro-category">{props.portoData.category}</div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+  )
+}
+
 export default function AspiringContent() {
     return(
 <>
@@ -157,19 +191,8 @@ export default function AspiringContent() {
             </div>
 
             <div className="project-list-metro a-grid row">
-              <div className="grid-item category-mobile category-animation col-md-6 col-lg-4 wow fadeInUp" data-wow-delay=".1s">
-                <a href="single-project-branding.html">
-                  <div className="project-item" style={{backgroundColor: '#e96437'}}>
-                    <div className="project-metro-photo"><img src="img/pic62.jpg" alt="" /></div>
-                    <div className="project-metro-date">2018</div>
-                    <div className="project-metro-detail">
-                      <h2 className="project-metro-title font-abril">Brole Movies App</h2>
-                      <div className="project-metro-category">Mobile App, animation</div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-              <div className="grid-item category-web category-branding col-md-6 col-lg-8 wow fadeInUp" data-wow-delay=".3s">
+             {portoData.map((item, index) => <ThumbnailSize key={index} portoData={item}/>)} 
+              {/* <div className="grid-item category-web category-branding col-md-6 col-lg-8 wow fadeInUp" data-wow-delay=".3s">
                 <a href="single-project-branding.html">
                   <div className="project-item" style={{backgroundColor: '#191a1e'}}>
                     <div className="project-metro-photo"><img src="img/pic63.jpg" alt="" /></div>
@@ -252,7 +275,7 @@ export default function AspiringContent() {
                     </div>
                   </div>
                 </a>
-              </div>
+              </div> */}
             </div>
 
             <div className="more more-lg more-total-lg text-center"><a href="#" className="underline">More project</a></div>
