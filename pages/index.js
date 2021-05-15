@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
@@ -173,10 +172,10 @@ export default function Home() {
                 <button className="a-pp-next">next</button>
             </div>
         </div>
-
+    
         <div className="home-horizontal a-horizontal full-height">
           <div className="section pp-scrollable slide slide1 slide-dark">
-            <div className="slide-container">
+            <div className="slide-container">            
               <div className="video-container a-video" data-vimeo-width="640" data-vimeo-height="360"><iframe src="https://player.vimeo.com/video/253112375?title=0&byline=0&portrait=0&autoplay=1&autopause=0&muted=1&background=1"   allowFullScreen></iframe></div>
               <div className="slide-bg"><div className="inside"></div></div>
               <div className="slide-video-container slide-container">
@@ -251,21 +250,16 @@ export default function Home() {
                   <div className="col-sm-4">
                     <div className="slide-num num">03</div>
                     <div className="slide-title">
-                      <div className="horizontal-top-title">Featured project</div>
-                      <h2 className="font-teko h1">Dark<br /> Bottle</h2>
-                    </div>
-                    <div className="slide-body">
-                      <h3 className="slide-title-sub font-teko">branding</h3>
+                      <h2 className="font-teko h1">Learn More<br /> About Me</h2>
                     </div>
                   </div>
                 </div>
-                <a className="btn btn-primary mr-4" href="single-project-branding.html">See project <i className="icon ion-ios-arrow-right"></i></a>
-                <a href="work-grid.html" className="horizontal-more-total">all project</a>
+                <a className="btn btn-primary mr-4" href="single-project-branding.html">My Background  <i className="icon ion-ios-arrow-right"></i></a>
               </div>
             </div>
           </div>
 
-          <div className="section pp-scrollable slide slide4">
+          {/* <div className="section pp-scrollable slide slide4">
             <div className="slide-container">
               <div className="container">
                 <div className="slide-num num">04</div>
@@ -279,7 +273,7 @@ export default function Home() {
                 </div>
 
                 <div className="slide-body">
-                  {/* <div className="row no-gutters partner-list partner-bordered">
+                  <div className="row no-gutters partner-list partner-bordered">
                     <div className="col partner-item"><span className="inside"><Image width={500} height={500} src="img/pic12.png" alt="" /></span></div>
                     <div className="col partner-item"><a href="#" className="inside"><Image width={500} height={500} src="img/pic13.png" alt="" /></a></div>
                     <div className="col partner-item"><a href="#" className="inside"><Image width={500} height={500} src="img/pic14.png" alt="" /></a></div>
@@ -295,13 +289,13 @@ export default function Home() {
                     <div className="col partner-item"><a href="#" className="inside"><Image width={500} height={500} src="img/pic25.png" alt="" /></a></div>
                     <div className="col partner-item"><a href="#" className="inside"><Image width={500} height={500} src="img/pic26.png" alt="" /></a></div>
                     <div className="col partner-item"><a href="#" className="inside"><Image width={500} height={500} src="img/pic27.png" alt="" /></a></div>
-                  </div> */}
+                  </div> 
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
 
-          <div className="section pp-scrollable slide slide5 slide-dark">
+          {/* <div className="section pp-scrollable slide slide5 slide-dark">
             <div className="slide-container">
               <div className="slide-bg"><div className="inside"></div></div>
               <div className="container">
@@ -319,7 +313,7 @@ export default function Home() {
                 <a className="btn btn-primary mr-4" href="contact.html">Contact us <i className="icon ion-ios-arrow-right"></i></a>
               </div>
             </div>
-          </div>
+          </div> */}
 
         </div>
 
