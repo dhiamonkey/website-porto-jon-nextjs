@@ -5737,7 +5737,6 @@ a.minimal-item:hover {
 }
 
 
-
 .project-list-listing + .more-lg {
   margin-top: 4.375rem;
 }
@@ -5748,6 +5747,10 @@ a.minimal-item:hover {
 
 .grid-item {
   width: 100%;
+}
+
+.porto-margin {
+  margin: 2vw;
 }
 
 .project-list-flash .project-item,
