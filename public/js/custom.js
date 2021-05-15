@@ -6,7 +6,7 @@ $(document).ready(function() {
       direction: 'horizontal',
       loopTop: true,
       loopBottom: true,
-      anchors: ['Home', 'Services', 'Projects', 'Clients', 'Contacts'],
+      anchors: ['Home', 'Works', 'About-me'],
       navigation: false,
       afterLoad: function(anchorLink, index){
         if( index == 1 || index == 3 || index == 5){ // Section with dark bacgkrounds
