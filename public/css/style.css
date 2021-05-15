@@ -2994,7 +2994,7 @@ a:hover .zooming img {
   width: 100%;
   position: fixed;
   z-index: 300;
-  bottom: 13.55555556vmin;
+  bottom: 7.55555556vmin;
   left: 0;
 }
 
@@ -3181,14 +3181,17 @@ a:hover .zooming img {
   box-sizing: border-box;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   background-image: url("/img/homebear.png");
-  height: 848px;
-  left: 200px;
-  top: 0px;
+  background-size: auto 91vh;
+  background-position: bottom right;
+  background-repeat: no-repeat;
 }
 
 .home-horizontal .slide3 .slide-bg > .inside {
   background-image: url("/img/about-me--section-v2.png");
-  size: 50%;
+  background-size: auto 95vh;
+  background-repeat: no-repeat;
+  background-position: 75% bottom;
+  float: right;
 }
 
 .home-horizontal .slide5 .slide-bg > .inside {
@@ -3380,6 +3383,12 @@ a.btn-play i {
   }
 }
 
+@media (max-width: 990px) {
+  .home-horizontal .slide1 .slide-bg > .inside {
+    background-size: auto 40vh;
+    }
+}
+
 .horizontal-service-list {
   margin-top: 3.33333333vmin;
 }
@@ -3430,10 +3439,20 @@ a.btn-play i {
 
 .horizontal-service-item-photo img.photo-position {
   position: absolute;
-  top: -3.125rem;
+  top: -6.125rem;
   left: 36.48648649%;
   max-width: 67.83783784%;
   height: auto;
+}
+
+.photo-position {
+  -webkit-filter: grayscale(100%); 
+  filter: grayscale(100%);
+}
+
+.photo-position:hover {
+  -webkit-filter: grayscale(0%); 
+  filter: grayscale(0%);
 }
 
 .horizontal-service-item-photo.photo3 img.photo-position {

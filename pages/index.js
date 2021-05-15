@@ -160,10 +160,8 @@ export default function Home() {
             <div className="container">
                 <ul id="menu">
                   <li data-menuanchor="Home" className="active"></li>
-                  <li data-menuanchor="Services"></li>
-                  <li data-menuanchor="Projects"></li>
-                  <li data-menuanchor="Clients"></li>
-                  <li data-menuanchor="Contacts"></li>
+                  <li data-menuanchor="Works"></li>
+                  <li data-menuanchor="About-me"></li>
                 </ul>
             </div>
             <div className="horizontal-controls">
@@ -212,7 +210,7 @@ export default function Home() {
                     <div className="col-lg-4">
                       <div className="horizontal-service-item">
                         <div className="num">1.</div>
-                        <div className="horizontal-service-item-photo">{/*<Image width={500} height={500} src="img/horizontal-pic2.png" alt=""  className="photo-position" />*/} </div>
+                        <div className="horizontal-service-item-photo"><img src="/img/Brainstorming session _Two Color.png" alt=""  className="photo-position" /> </div>
                         <div className="horizontal-service-item-title">Content that Aspires</div>
                         <div className="horizontal-service-item-descr text-grey">We build and activate brands throung cultural insight, strategic vision, and the power of emotion..</div>
                         <div className="horizontal-service-item-more"><a className="btn btn-primary btn-sm" href="service.html">Learn more <i className="icon ion-ios-arrow-right"></i></a></div>
@@ -221,7 +219,7 @@ export default function Home() {
                     <div className="col-lg-4">
                       <div className="horizontal-service-item">
                         <div className="num">2.</div>
-                        <div className="horizontal-service-item-photo">{/*<Image width={500} height={500} src="img/horizontal-pic3.png" alt="" className="photo-position" />*/}</div>
+                        <div className="horizontal-service-item-photo"><img src="/img/Bank-note_Monochromatic.png" alt="" className="photo-position" /></div>
                         <div className="horizontal-service-item-title">Content that Sells</div>
                         <div className="horizontal-service-item-descr text-grey">We build and activate brands throung cultural insight, strategic vision, and the power of emotion..</div>
                         <div className="horizontal-service-item-more"><a className="btn btn-primary btn-sm" href="service.html">Learn more <i className="icon ion-ios-arrow-right"></i></a></div>
@@ -230,7 +228,7 @@ export default function Home() {
                     <div className="col-lg-4">
                       <div className="horizontal-service-item">
                         <div className="num">3.</div>
-                        <div className="horizontal-service-item-photo photo3">{/*<Image width={500} height={500} src="img/horizontal-pic4.png" alt="" className="photo-position" />*/}</div>
+                        <div className="horizontal-service-item-photo photo3"><img src="/img/World-wide-web_Flatline.png" alt="" className="photo-position" /></div>
                         <div className="horizontal-service-item-title">Other Works</div>
                         <div className="horizontal-service-item-descr text-grey">From development, UI/UX &amp; photography.</div>
                         <div className="horizontal-service-item-more"><a className="btn btn-primary btn-sm" href="service.html">Learn more <i className="icon ion-ios-arrow-right"></i></a></div>
@@ -342,6 +340,7 @@ export default function Home() {
     <script src="js/jquery.countdown.min.js"></script>
     <script src="js/script.js"></script>
     <script src="js/custom.js"></script>
+
 
   </div>
 
