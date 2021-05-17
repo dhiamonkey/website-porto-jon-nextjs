@@ -320,7 +320,7 @@ export default function Home() {
       </div>
 
     </div>
-
+    </div>
 
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/jquery.min.js"></script>')</script>
@@ -342,7 +342,7 @@ export default function Home() {
     <script src="js/custom.js"></script>
 
 
-  </div>
+  
 
     </>
   )
