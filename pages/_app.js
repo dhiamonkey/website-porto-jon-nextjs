@@ -1,16 +1,20 @@
 
 import React from 'react'
+import Head from 'next/head'
+import Layout from '../components/Layout'
 
 function MyApp({ Component, pageProps}) {
   return (
     <>
-    <meta charset="utf-8" />
+    <Head>
+    <meta charSet="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=0" />
     <meta name="description" content="Lewis - Creative Portfolio HTML Template"/>
     <meta name="author" content="Paul, Logan Cee" />
-  <Component {...pageProps} />
+    </Head>
+    <Layout><Component {...pageProps} /></Layout>
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
-    <script>window.jQuery || document.write('<script src="js/jquery.min.js"></script>')</script>
+    <script src="js/jqueryInclude.js"></script>
     <script src="js/smoothscroll.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>

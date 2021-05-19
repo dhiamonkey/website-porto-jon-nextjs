@@ -30,7 +30,7 @@ export default function Home() {
     <link rel="manifest" href="favicon/site.webmanifest" />
     <meta name="msapplication-TileColor" content="#da532c" />
     <meta name="theme-color" content="#ffffff" />
-
+    
   </Head>
 
   <div className="theme-orange">
@@ -249,7 +249,7 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-                <a className="btn btn-primary mr-4" href="single-project-branding.html">My Background  <i className="icon ion-ios-arrow-right"></i></a>
+                <a className="btn btn-primary mr-4" href="/about-me">My Background  <i className="icon ion-ios-arrow-right"></i></a>
               </div>
             </div>
           </div>
@@ -317,8 +317,9 @@ export default function Home() {
       </div>
 
     </div>
+    
     </div>
-
+    
     
 
 
