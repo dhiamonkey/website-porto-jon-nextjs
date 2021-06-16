@@ -2,6 +2,7 @@ import Head from 'next/head';
 import React from 'react'
 import Modal from "react-modal";
 import { CSSTransition } from "react-transition-group";
+import Footer from "./components/Footer";
 
 Modal.setAppElement("body");
 
@@ -97,10 +98,10 @@ export default function AspiringContent() {
     <meta name="theme-color" content="#ffffff"/>
 
   </Head>
-
+  
   <div className="theme-orange fixed-footer fixed-footer-lg">
     <div className="animsition">
-      <div className="wrapper">
+      <div className="wrapper paralax-start">
 
 
         <div className="section section-content">
@@ -216,73 +217,9 @@ export default function AspiringContent() {
 
       </div>
 
-      <div className="footer">
-        <div className="footer-flash-about home-flash-dark">
-          <div className="container">
-            Tell us more about what you want to accomplish with your organisation. We help you think of possible solutions in an ever-changing digital world.
-            <div className="mt-4"><a href="mailto:hello@lewisstudio.co" className="underline"><strong>hello@lewisstudio.co</strong></a></div>
-          </div>
-        </div>
+      
+      <Footer />
 
-        <div className="home-flash-dark pt-0 pb-0"><div className="container"><hr className="mt-0 mb-0"/></div></div>
-
-        <div className="footer-flash home-flash-dark">
-          <div className="container">
-            <div className="footer-content-flash">
-              <div className="row">
-                <div className="col-md-4 col-6 mb-5">
-                  <h5>Office</h5>
-                  <div className="contact-item">166 Main Street, Beverly Hills,<br /> CA,&nbsp;90210</div>
-                  <div className="contact-item"><a href="mailto:hello@lewisstudio.co">hello@lewisstudio.co</a></div>
-                  <div className="contact-item"><a href="tel:+00853462188" className="phone-link">+0085 346 2188</a></div>
-                </div>
-
-                <div className="col-md-3 col-6 mb-5">
-                  <h5>help</h5>
-                  <ul className="footer-nav">
-                    <li><a href="#">FAQs</a></li>
-                    <li><a href="#">Terms &amp; Conditions</a></li>
-                    <li><a href="#">Privacy Policy</a></li>
-                    <li><a href="#">Help</a></li>
-                    <li><a href="#">Services</a></li>
-                  </ul>
-                </div>
-
-                <div className="col-md-2 col-6 mb-5">
-                  <h5>quick links</h5>
-                  <ul className="footer-nav">
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#">Career</a></li>
-                    <li><a href="#">Blog</a></li>
-                  </ul>
-                </div>
-
-                <div className="col-md-3 col-6 mb-5">
-                  <ul className="social social-rounded">
-                    <li><a href="#"><i className="socicon-twitter"></i></a></li>
-                    <li><a href="#"><i className="socicon-facebook"></i></a></li>
-                    <li><a href="#"><i className="socicon-googleplus"></i></a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-
-            <div className="site-info">
-              <div className="row">
-                <div className="col-6">
-                  <div className="copyright text-left">&copy; 2019 <strong>LEWIS</strong>. All Rights Reserved.</div>
-                </div>
-                <div className="col-6">
-                  <div className="text-right">Design by <strong><a href="#">Logan Cee</a></strong></div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </div>
     </div>
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
     <script src="js/jqueryInclude.js"></script>
@@ -301,6 +238,8 @@ export default function AspiringContent() {
     <script src="js/jquery.viewport.js"></script>
     <script src="js/jquery.countdown.min.js"></script>
     <script src="js/script.js"></script>
+    
+    </div>
 </>
 
     )

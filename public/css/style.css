@@ -331,7 +331,7 @@ html > body .fs60 {
   }
 
   .h1-lg {
-    font-size: 4.5rem;
+    font-size: 4.25rem;
     line-height: 1.13888889;
   }
 }
@@ -5312,8 +5312,8 @@ a.minimal-item:hover {
 
 .home-flash-dark,
 .home-flash.dark-horizontal {
-  background: #2c1a6a;
-  color: #9999cc;
+  background: #8c7213;
+  color: #ffffff;
 }
 
 .home-flash-dark hr,
@@ -6034,7 +6034,7 @@ a:hover .project-metro-photo img {
 
 .footer-flash-about {
   padding-top: 16.66666667vmin;
-  padding-bottom: 13.51851852vmin;
+  padding-bottom: 8.51851852vmin;
   font-size: 1.875rem;
   line-height: 1.6;
 }
@@ -6051,7 +6051,7 @@ a:hover .project-metro-photo img {
 .footer-content-flash h5 {
   margin-bottom: 2.25rem;
   font-size: .875rem;
-  color: #9999cc;
+  color: #ffffff;
   text-transform: uppercase;
   font-weight: bold;
 }
