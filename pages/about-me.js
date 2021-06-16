@@ -1,5 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Footer from "./components/Footer";
+
 
 export default function About() {
   return (
@@ -39,9 +41,10 @@ export default function About() {
         <div className="section section-content section-centered full-height full-image-dark text-white" style={{backgroundImage: 'url(img/bg-about-me2.jpg)'}}>
           <div className="section-item">
             <div className="container">
-              <div className="next-title mb55 wow fadeInUp"><strong>freelance digital designer</strong></div>
-              <h1 className="h1-lg font-libre mb60 wow fadeInUp" data-wow-delay=".2s"><strong>Hi! I’m Roberto<br /> Glad to see you here</strong></h1>
-              <a href="#" className="btn btn-primary btn-sm mt50 wow fadeInUp" data-wow-delay=".4s">work with me <i className="icon ion-ios-email-outline"></i></a>
+              <div className="next-title mb55 wow fadeInUp"><strong>Core Philsophy</strong></div>
+              <h1 className="h1-lg font-libre mb60 wow fadeInUp" data-wow-delay=".2s"><strong>"No matter what anybody tells you, words &amp; ideas can change the world"</strong></h1>
+              <div className="next-title mb55 wow fadeInUp"><strong>— John Keating, <em>Deads Poets Society</em></strong></div>
+              
             </div>
           </div>
         </div>
@@ -51,8 +54,8 @@ export default function About() {
             <div className="section-item text-left">
               <div className="row">
                 <div className="col-md-5 mb-2">
-                  <h2 className="mb-1 font-libre fs30">Roberto Firmino</h2>
-                  <div className="section-item-title-xs-narrow text-primary">THe story of Pixel</div>
+                  <h2 className="mb-1 font-libre fs30">Dhia Muhammad</h2>
+                  <div className="section-item-title-xs-narrow text-primary">My Story in Two Paragraphs</div>
                 </div>
                 <div className="col-md-7">
                   <div className="fs18 text-grey">
@@ -72,8 +75,8 @@ export default function About() {
             <div className="section-item text-left">
               <div className="row">
                 <div className="col-md-5 mb-2">
-                  <h2 className="mb-1 font-libre fs30">Services</h2>
-                  <div className="section-item-title-xs-narrow text-primary">solutions for your business</div>
+                  <h2 className="mb-1 font-libre fs30">Skills</h2>
+                  <div className="section-item-title-xs-narrow text-primary">What I Have to Offer</div>
                 </div>
                 <div className="col-md-7">
                   <div className="fs18 text-grey mt5">It's time to bring it all together. Nothing is more rewarding for me than making great work for clients with meaningful missions.</div>
@@ -83,7 +86,7 @@ export default function About() {
                         <li className="nav-item">
                           <a className="active" href="#">Logo Design</a>
                         </li>
-                        <li className="nav-item active">
+                        <li className="nav-item">
                           <a href="#">Brand Guide</a>
                         </li>
                         <li className="nav-item">
@@ -136,27 +139,51 @@ export default function About() {
             <div className="section-item text-left">
               <div className="row">
                 <div className="col-md-5 mb-2">
-                  <h2 className="mb-1 font-libre fs30">Skills</h2>
-                  <div className="section-item-title-xs-narrow text-primary">what i am best at</div>
+                  <h2 className="mb-1 font-libre fs30">Tools</h2>
+                  <div className="section-item-title-xs-narrow text-primary">Or Should I say... "My Weapons Mastery"</div>
                 </div>
-                <div className="col-md-7 mt-3">
+                <div className="col-md-7 mt-7">
                   <div className="a-progressbar">
                     <div className="mb20">
-                      <div className="text-uppercase mb-2">Web Design</div>
+                      <div className="text-uppercase mb-2">Google Analytics &amp; Search Console</div>
                       <div className="progress">
                         <div className="progress-bar bg-primary" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"><div className="progress-value">90%</div></div>
                       </div>
                     </div>
                     <div className="mb20">
-                      <div className="text-uppercase mb-2">branding</div>
+                      <div className="text-uppercase mb-2">HTML &amp; CSS</div>
                       <div className="progress">
-                        <div className="progress-bar bg-primary" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"><div className="progress-value">70%</div></div>
+                        <div className="progress-bar bg-primary" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"><div className="progress-value">85%</div></div>
                       </div>
                     </div>
                     <div className="mb20">
-                      <div className="text-uppercase mb-2">animation / motion</div>
+                      <div className="text-uppercase mb-2">JavaScript</div>
+                      <div className="progress">
+                        <div className="progress-bar bg-primary" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"><div className="progress-value">80</div></div>
+                      </div>
+                    </div>
+                    <div className="mb20">
+                      <div className="text-uppercase mb-2">ReactJS &amp; NextJS</div>
+                      <div className="progress">
+                        <div className="progress-bar bg-primary" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"><div className="progress-value">65%</div></div>
+                      </div>
+                    </div>
+                    <div className="mb20">
+                      <div className="text-uppercase mb-2">Clojure</div>
+                      <div className="progress">
+                        <div className="progress-bar bg-primary" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"><div className="progress-value">55%</div></div>
+                      </div>
+                    </div>
+                    <div className="mb20">
+                      <div className="text-uppercase mb-2">Adobe Photoshop &amp; Illustrator</div>
                       <div className="progress">
                         <div className="progress-bar bg-primary" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"><div className="progress-value">85%</div></div>
+                      </div>
+                    </div>
+                    <div className="mb20">
+                      <div className="text-uppercase mb-2">Adobe After Effects &amp; Premiere</div>
+                      <div className="progress">
+                        <div className="progress-bar bg-primary" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"><div className="progress-value">75%</div></div>
                       </div>
                     </div>
                   </div>
@@ -167,7 +194,7 @@ export default function About() {
             <div className="section-item text-left">
               <div className="row">
                 <div className="col-md-5 mb-2">
-                  <h2 className="mb-1 font-libre fs30">Awards &amp; Press</h2>
+                  <h2 className="mb-1 font-libre fs30">Notable Achievements</h2>
                   <div className="section-item-title-xs-narrow text-primary">my achievements</div>
                 </div>
                 <div className="col-md-7">
@@ -208,73 +235,7 @@ export default function About() {
 
       </div>
 
-      <div className="footer">
-        <div className="footer-flash-about home-flash-dark">
-          <div className="container">
-            Tell us more about what you want to accomplish with your organisation. We help you think of possible solutions in an ever-changing digital world.
-            <div className="mt-4"><a href="mailto:hello@lewisstudio.co" className="underline"><strong>hello@lewisstudio.co</strong></a></div>
-          </div>
-        </div>
-
-        <div className="home-flash-dark pt-0 pb-0"><div className="container"><hr className="mt-0 mb-0"></hr></div>
-
-        <div className="footer-flash home-flash-dark">
-          <div className="container">
-            <div className="footer-content-flash">
-              <div className="row">
-                <div className="col-md-4 col-6 mb-5">
-                  <h5>Office</h5>
-                  <div className="contact-item">166 Main Street, Beverly Hills,<br /> CA,&nbsp;90210</div>
-                  <div className="contact-item"><a href="mailto:hello@lewisstudio.co">hello@lewisstudio.co</a></div>
-                  <div className="contact-item"><a href="tel:+00853462188" className="phone-link">+0085 346 2188</a></div>
-                </div>
-
-                <div className="col-md-3 col-6 mb-5">
-                  <h5>help</h5>
-                  <ul className="footer-nav">
-                    <li><a href="#">FAQs</a></li>
-                    <li><a href="#">Terms &amp; Conditions</a></li>
-                    <li><a href="#">Privacy Policy</a></li>
-                    <li><a href="#">Help</a></li>
-                    <li><a href="#">Services</a></li>
-                  </ul>
-                </div>
-
-                <div className="col-md-2 col-6 mb-5">
-                  <h5>quick links</h5>
-                  <ul className="footer-nav">
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#">Career</a></li>
-                    <li><a href="#">Blog</a></li>
-                  </ul>
-                </div>
-
-                <div className="col-md-3 col-6 mb-5">
-                  <ul className="social social-rounded">
-                    <li><a href="#"><i className="socicon-twitter"></i></a></li>
-                    <li><a href="#"><i className="socicon-facebook"></i></a></li>
-                    <li><a href="#"><i className="socicon-googleplus"></i></a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-
-            <div className="site-info">
-              <div className="row">
-                <div className="col-6">
-                  <div className="copyright text-left">&copy; 2019 <strong>LEWIS</strong>. All Rights Reserved.</div>
-                </div>
-                <div className="col-6">
-                  <div className="text-right">Design by <strong><a href="#">Logan Cee</a></strong></div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </div>
+      <Footer />
     </div>
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
     <script src="js/jqueryInclude.js"></script>

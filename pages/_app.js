@@ -1,12 +1,13 @@
 
 import React from 'react'
 import Head from 'next/head'
+import Footer from "./components/Footer";
 import { useRouter } from 'next/router'
 import { withRouter } from 'next/router'
 
 
 
-function MyApp({ Component, pageProps}) {
+function MyApp({ Component, pageProps, router}) {
   return (
     <>
     <Head>
@@ -14,6 +15,8 @@ function MyApp({ Component, pageProps}) {
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=0" />
     <meta name="description" content="Lewis - Creative Portfolio HTML Template"/>
     <meta name="author" content="Paul, Logan Cee" />
+
+    
     </Head>
     
     <div className="theme-orange">
@@ -25,7 +28,7 @@ function MyApp({ Component, pageProps}) {
             <div className="brand">
               <a href="/">
                 <div className="brand-name text-texture">DM</div>
-                <div className="brand-text">DhiaMuhammad.com</div>
+                <div className="brand-text">DhiaMuhammad-netlify.app</div>
               </a>
             </div>
 
@@ -53,7 +56,7 @@ function MyApp({ Component, pageProps}) {
           <div className="menu">
             <div className="menu-lang">
               <a href="#" className="menu-lang-item active">English</a>
-              <a href="#" className="menu-lang-item" onclick="alert('Hello, this language mode is still on-progress')">Indonesia</a>
+              <a href="#" className="menu-lang-item" onclick="alert('Hello, this language mode is still on-progress')">Indonesian</a>
               <a href="#" className="menu-lang-item" onclick="alert('Hello, this language mode is still on-progress')">Sundanese</a>
               <a href="#" className="menu-lang-item" onclick="alert('Hello, this language mode is still on-progress')">Dutch</a>
             </div>
@@ -65,8 +68,8 @@ function MyApp({ Component, pageProps}) {
                 <li><a data-text="Works" data-toggle="collapse" href="#menuWorks" role="button" aria-expanded="false" aria-controls="menuWorks">Works</a>
                   <div className="collapse" id="menuWorks" data-parent="#accordion">
                     <ul>
-                      <li><a href="/aspiring-content" className="animsition-link" data-animsition-out-class="fade-out" data-text="Aspiring Content">Aspiring Content</a></li>
-                      <li><a href="work-masonry.html" className="animsition-link" data-animsition-out-class="fade-out" data-text="Selling Content">Selling Content</a></li>
+                      <li><a href="/aspiring-content" className="animsition-link" data-animsition-out-class="fade-out" data-text="Aspiring Contents">Aspiring Contents</a></li>
+                      <li><a href="work-masonry.html" className="animsition-link" data-animsition-out-class="fade-out" data-text="Selling Contents">Selling Contents</a></li>
                       <li><a href="work-metro.html" className="animsition-link" data-animsition-out-class="fade-out" data-text="Other Works">Other Works</a></li>
                     </ul>
                   </div>
