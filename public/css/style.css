@@ -78,6 +78,17 @@
 }
 
 @font-face {
+  font-family: 'Black Ops One';
+  src: url('../fonts/BlackOpsOne-Regular.ttf');
+  src: url('../fonts/BlackOpsOne-Regular.ttf') format('embedded-opentype'),
+       url('../fonts/BlackOpsOne-Regular.ttf') format('woff2'),
+       url('../fonts/BlackOpsOne-Regular.ttf') format('woff'),
+       url('../fonts/BlackOpsOne-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
     font-family: 'Butler';
     src: url('../fonts/butler_bold-webfont.eot');
     src: url('../fonts/butler_bold-webfont.eot?#iefix') format('embedded-opentype'),
@@ -904,9 +915,9 @@ input:focus {
 
 .brand-name {
   margin-right: .875rem;
-  font-family: 'Butler', Serif;
+  font-family: 'Black Ops One', Serif;
   font-size: 2.875rem;
-  font-weight: 900;
+  font-weight: 500;
   line-height: 1.1;
 }
 
@@ -2995,7 +3006,7 @@ a:hover .zooming img {
   width: 100%;
   position: fixed;
   z-index: 300;
-  bottom: 7.55555556vmin;
+  bottom: 5.55555556vmin;
   left: 0;
 }
 

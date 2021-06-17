@@ -99,7 +99,7 @@ export default function Home() {
                         <div className="num">1.</div>
                         <div className="horizontal-service-item-photo"><img src="/img/Brainstorming session _Two Color.png" alt=""  className="photo-position" /> </div>
                         <div className="horizontal-service-item-title">Content that Aspires</div>
-                        <div className="horizontal-service-item-descr text-grey">We build and activate brands throung cultural insight, strategic vision, and the power of emotion..</div>
+                        <div className="horizontal-service-item-descr text-grey">More than just a means of <strong>branding</strong>, these works are aimed to entice the emotion, shift the paradigm, and/or persuade the audience to take action.</div>
                         <div className="horizontal-service-item-more"><a className="btn btn-primary btn-sm" href="/aspiring-content">Learn more <i className="icon ion-ios-arrow-right"></i></a></div>
                       </div>
                     </div>
@@ -108,7 +108,7 @@ export default function Home() {
                         <div className="num">2.</div>
                         <div className="horizontal-service-item-photo"><img src="/img/Bank-note_Monochromatic.png" alt="" className="photo-position" /></div>
                         <div className="horizontal-service-item-title">Content that Sells</div>
-                        <div className="horizontal-service-item-descr text-grey">We build and activate brands throung cultural insight, strategic vision, and the power of emotion..</div>
+                        <div className="horizontal-service-item-descr text-grey">Acquiring desired leads through contents that are data-driven, methodical &amp; meticuluosly researched.</div>
                         <div className="horizontal-service-item-more"><a className="btn btn-primary btn-sm" href="service.html">Learn more <i className="icon ion-ios-arrow-right"></i></a></div>
                       </div>
                     </div>

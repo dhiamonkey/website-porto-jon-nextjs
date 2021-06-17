@@ -8,6 +8,7 @@ import { withRouter } from 'next/router'
 
 
 function MyApp({ Component, pageProps, router}) {
+
   return (
     <>
     <Head>
@@ -63,18 +64,24 @@ function MyApp({ Component, pageProps, router}) {
 
             <div className="menu-main" id="accordion">
               <ul>
-                <li className="active"><a data-text="Home"  href="/" role="button" aria-expanded="false" aria-controls="menuHome">Home</a>
+                <li className={router.pathname === '/' ? "active" : ""}>
+                  <a data-text="Home"  href="/" role="button" aria-expanded="false" aria-controls="menuHome">Home</a>
                 </li>
-                <li><a data-text="Works" data-toggle="collapse" href="#menuWorks" role="button" aria-expanded="false" aria-controls="menuWorks">Works</a>
+                <li className={router.pathname === '/aspiring-content' && '/selling-content' && '/other-works' ? "active" : ""}>
+                  <a data-text="Works" data-toggle="collapse" href="#menuWorks" role="button" aria-expanded="false" aria-controls="menuWorks">Works</a>
                   <div className="collapse" id="menuWorks" data-parent="#accordion">
                     <ul>
-                      <li><a href="/aspiring-content" className="animsition-link" data-animsition-out-class="fade-out" data-text="Aspiring Contents">Aspiring Contents</a></li>
-                      <li><a href="work-masonry.html" className="animsition-link" data-animsition-out-class="fade-out" data-text="Selling Contents">Selling Contents</a></li>
-                      <li><a href="work-metro.html" className="animsition-link" data-animsition-out-class="fade-out" data-text="Other Works">Other Works</a></li>
+                      <li className={router.pathname === '/aspiring-content' ? "active" : ""}>
+                        <a href="/aspiring-content" className="animsition-link" data-animsition-out-class="fade-out" data-text="Aspiring Contents">Aspiring Contents</a></li>
+                      <li>
+                        <a href="/selling-content" className="animsition-link" data-animsition-out-class="fade-out" data-text="Selling Contents">Selling Contents</a></li>
+                      <li>
+                        <a href="/other-works" className="animsition-link" data-animsition-out-class="fade-out" data-text="Other Works">Other Works</a></li>
                     </ul>
                   </div>
                 </li>
-                <li><a data-text="About Me &amp; CV" href="about-me" role="button" aria-expanded="false" aria-controls="About Me & CV">About Me &amp; CV</a></li>
+                <li className={router.pathname === '/about-me' ? "active" : ""}>
+                  <a data-text="About Me &amp; CV" href="about-me" role="button" aria-expanded="false" aria-controls="About Me">About Me</a></li>
                 </ul>
             </div>
 
