@@ -38,10 +38,10 @@ export default function About() {
       <div className="wrapper parallax-start">
 
 
-        <div className="section section-content section-centered full-height full-image-dark text-white" style={{backgroundImage: 'url(img/bg-about-me2.jpg)'}}>
+        <div className="section section-content section-centered full-height full-image-dark text-white" style={{backgroundImage: 'url(img/wp3721951.jpg)'}}>
           <div className="section-item">
             <div className="container">
-              <div className="next-title mb55 wow fadeInUp"><strong>Core Philsophy</strong></div>
+              <div className="next-title mb25 wow fadeInUp"><strong>Core Philsophy</strong></div>
               <h1 className="h1-lg font-libre mb60 wow fadeInUp" data-wow-delay=".2s"><strong>"No matter what anybody tells you, words &amp; ideas can change the world"</strong></h1>
               <div className="next-title mb55 wow fadeInUp"><strong>— John Keating, <em>Deads Poets Society</em></strong></div>
               
