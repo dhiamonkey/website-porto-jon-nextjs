@@ -75,6 +75,50 @@ export default function About() {
             <div className="section-item text-left">
               <div className="row">
                 <div className="col-md-5 mb-2">
+                  <h2 className="mb-1 font-libre fs30">Work Experiences</h2>
+                  <div className="section-item-title-xs-narrow text-primary mb55">What made me who I am</div>
+                </div>
+                <div className="col-md-7">
+                  
+                  <div className="  ">
+                    <div className="row align-items-center mb35 wow fadeInRight" data-wow-delay=".2s">
+                      <div className="col-sm-2"><div className="text-grey-light"><strong>2021 - Current</strong></div></div>
+                      <div className="col-sm-4"><img src="img/logo eido-black.png" style={{height: '54px', width: 'auto'}} alt="" className="img-fluid mb20 mt20" /></div>
+                      <div className="col-sm-6"><div className="text-uppercase"><strong>Writer &amp; Front-End Developer</strong></div></div>
+                      <div className="fs18 text-grey mt50 mb50 col-sm-12">The harsh environment of job-market in the early Covid era has enforced me to develop a new skill in order to just make ends meet. The newly attained skills that I learned is Front-End Development using ReactJS &amp; NextJS. <br/> <br/> By learning these skills, I acquired the oppurtunity to work at Eido Tech, an up-&amp;-coming digital agency. And, in just 3 months of hardwork &amp; hard-learning, I help to develop 5+ robust &amp; websites such as: <a href="https://IndonesiaImpactFund.com" target='blank' className="nav-item">IndonesiaImpactFund.com</a>, <a href="https://Quantumventures.vc" target='blank'>Quantumventures.vc</a>, <a href="https://Eido.tech" target='blank'>Eido.tech</a>, etc!<br/> <br/> In addition to development, I also write our client's web-copies &amp; SEO elements.</div>
+
+                    </div>
+
+                    <div className="row align-items-center mb35 wow fadeInRight" data-wow-delay=".3s">
+                      <div className="col-sm-2"><div className="text-grey-light"><strong>2020 - Current</strong></div></div>
+                      <div className="col-sm-4"><img src="img/Logo Sribu Blue-01.png" style={{height: '74px', width: 'auto'}} alt="" className="img-fluid mb20 mt20" /></div>
+                      <div className="col-sm-6"><div className="text-uppercase"><strong>Content Specialist (Fulltime &amp; Freelance)</strong></div></div>
+                      <div className="fs18 text-grey mt50 mb50 col-sm-12">Write, produce and oversee all content productions on company’s social media channels, blog, landing pages, and write e-mail blasts to generate more leads and conversions</div>
+                    </div>
+
+                    <div className="row align-items-center mb35 wow fadeInRight" data-wow-delay=".4s">
+                      <div className="col-sm-2"><div className="text-grey-light"><strong> 2017-2019</strong></div></div>
+                      <div className="col-sm-4"><img src="img/zenius logo.jpg" style={{height: '74px', width: 'auto'}} alt="" className="img-fluid mb20 mt20" /></div>
+                      <div className="col-sm-6"><div className="text-uppercase"><strong>Content Marketing &amp; Social Media Specialist </strong></div></div>
+                      <div className="fs18 text-grey mt50 mb50 col-sm-12">It's always good to receive positive and constructive feedback for your work - from clients and moreover, from designers!</div>
+
+                    </div>
+
+                    <div className="row align-items-center mb35 wow fadeInRight" data-wow-delay=".5s">
+                      <div className="col-sm-2"><div className="text-grey-light"><strong>2013-2017 </strong></div></div>
+                      <div className="col-sm-4"><img src="img/zenius logo.jpg" style={{height: '74px', width: 'auto'}} alt="" className="img-fluid mb20 mt20" /></div>
+                      <div className="col-sm-6"><div className="text-uppercase"><strong>Business Development &amp; Developer</strong></div></div>
+                      <div className="fs18 text-grey mt50 mb50 col-sm-12">It's always good to receive positive and constructive feedback for your work - from clients and moreover, from designers!</div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="section-item text-left">
+              <div className="row">
+                <div className="col-md-5 mb-2">
                   <h2 className="mb-1 font-libre fs30">Skills</h2>
                   <div className="section-item-title-xs-narrow text-primary">What I Have to Offer</div>
                 </div>
