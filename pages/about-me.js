@@ -85,7 +85,11 @@ export default function About() {
                       <div className="col-sm-2"><div className="text-grey-light"><strong>2021 - Current</strong></div></div>
                       <div className="col-sm-4"><img src="img/logo eido-black.png" style={{height: '54px', width: 'auto'}} alt="" className="img-fluid mb20 mt20" /></div>
                       <div className="col-sm-6"><div className="text-uppercase"><strong>Writer &amp; Front-End Developer</strong></div></div>
-                      <div className="fs18 text-grey mt50 mb50 col-sm-12">The harsh environment of job-market in the early Covid era has enforced me to develop a new skill in order to just make ends meet. The newly attained skills that I learned is Front-End Development using ReactJS &amp; NextJS. <br/> <br/> By learning these skills, I acquired the oppurtunity to work at Eido Tech, an up-&amp;-coming digital agency. And, in just 3 months of hardwork &amp; hard-learning, I help to develop 5+ robust &amp; websites such as: <a href="https://IndonesiaImpactFund.com" target='blank' className="nav-item">IndonesiaImpactFund.com</a>, <a href="https://Quantumventures.vc" target='blank'>Quantumventures.vc</a>, <a href="https://Eido.tech" target='blank'>Eido.tech</a>, etc!<br/> <br/> In addition to development, I also write our client's web-copies &amp; SEO elements.</div>
+                      <div className="fs18 text-grey mt50 mb50 col-sm-12">The harsh environment of job-market in the early Covid era has enforced me to develop a new skill in order to just make ends meet. The newly attained skill that I learned is <strong>Front-End Development using ReactJS &amp; NextJS </strong>. 
+                      <br/> <br/> 
+                      By learning these skills, I acquired the oppurtunity to work at Eido Tech, an up-and-coming digital agency. In just 3 months of hardwork &amp; hard-learning, I help to develop 5+ robust &amp; responsive websites such as: <a href="https://IndonesiaImpactFund.com" target='blank' className="active">IndonesiaImpactFund.com</a>, <a href="https://Quantumventures.vc" target='blank'>Quantumventures.vc</a>, <a href="https://Eido.tech" target='blank'>Eido.tech</a>, etc!
+                      <br/> <br/> 
+                      In addition to development, I also write our client's web-copies &amp; SEO elements.</div>
 
                     </div>
 
@@ -93,7 +97,13 @@ export default function About() {
                       <div className="col-sm-2"><div className="text-grey-light"><strong>2020 - Current</strong></div></div>
                       <div className="col-sm-4"><img src="img/Logo Sribu Blue-01.png" style={{height: '74px', width: 'auto'}} alt="" className="img-fluid mb20 mt20" /></div>
                       <div className="col-sm-6"><div className="text-uppercase"><strong>Content Specialist (Fulltime &amp; Freelance)</strong></div></div>
-                      <div className="fs18 text-grey mt50 mb50 col-sm-12">Write, produce and oversee all content productions on company’s social media channels, blog, landing pages, and write e-mail blasts to generate more leads and conversions</div>
+                      <div className="fs18 text-grey mt50 mb50 col-sm-12">Write, produce and oversee all content productions on company’s social media channels, blog, landing pages, and e-mail blasts to generate more leads and conversions.<br/> <br/>
+                      Later, my employment status was changed from 'Full-time' to 'Freelance' due the economical impact Covid-19. As a result, my responsibility is somewhat reduced.
+                      <br/> <br/>
+                      During my time here, I excelled at e-mail marketing with an average of <strong>20+% open rate and 5+% click rate</strong>. At one time, I was able to surpass the company record with <strong> 69% open rate and 20% click rate </strong> on our e-mail campaign of promoting our e-book.
+                      <br/> <br/>
+                      In the blog or content marketing area, I <strong>secured hundreds of keywords </strong> for Sribu. I also hold the authorship of an article with one of the highest traffic on Sribu's site. The said article is also successfully <strong><a href="https://www.google.com/search?q=contoh+kemasan+produk" target="blank">featured as a Google Snippet</a> </strong>, securing the highly-competitive keyword '<em>Contoh Kemasan Produk</em>' for Sribu. 
+                      </div>
                     </div>
 
                     <div className="row align-items-center mb35 wow fadeInRight" data-wow-delay=".4s">
