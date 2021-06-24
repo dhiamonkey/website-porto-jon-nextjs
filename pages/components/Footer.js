@@ -35,18 +35,19 @@ export default function Footer() {
                 <div className="col-md-2 col-6 mb-5">
                   <h5>quick links</h5>
                   <ul className="footer-nav">
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#">Career</a></li>
-                    <li><a href="#">Blog</a></li>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/aspiring-content">Aspiring Contents</a></li>
+                    <li><a>Selling Content</a></li>
+                    <li><a>Other Works</a></li>
+                    <li><a href="/about-me">About Me</a></li>
                   </ul>
                 </div>
 
                 <div className="col-md-3 col-6 mb-5">
                   <ul className="social social-rounded">
-                    <li><a href="#"><i className="socicon-twitter"></i></a></li>
-                    <li><a href="#"><i className="socicon-facebook"></i></a></li>
-                    <li><a href="#"><i className="socicon-googleplus"></i></a></li>
+                  <li><a href="https://www.linkedin.com/in/dhia-rizqullah/" target="blank"><i className="socicon-linkedin"></i></a></li>
+                  <li><a href="https://github.com/dhiamonkey" target="blank"><i className="socicon-github"></i></a></li>
+                  <li><a href="https://www.behance.net/dhiamuhammad" target="blank"><i className="socicon-behance"></i></a></li>
                   </ul>
                 </div>
               </div>

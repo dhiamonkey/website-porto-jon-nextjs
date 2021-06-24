@@ -102,7 +102,7 @@ export default function About() {
                       <br/> <br/>
                       During my time here, I excelled at e-mail marketing with an average of <strong>20+% open rate and 5+% click rate</strong>. At one time, I was able to surpass the company record with <strong> 69% open rate and 20% click rate </strong> on our e-mail campaign of promoting our e-book.
                       <br/> <br/>
-                      In the blog or content marketing area, I <strong>secured hundreds of keywords </strong> for Sribu. I also hold the authorship of an article with one of the highest traffic on Sribu's site. The said article is also successfully <strong><a href="https://www.google.com/search?q=contoh+kemasan+produk" target="blank">featured as a Google Snippet</a> </strong>, securing the highly-competitive keyword '<em>Contoh Kemasan Produk</em>' for Sribu. 
+                      In the blog or content marketing area, I <strong>secured hundreds of keywords </strong> for Sribu. I also hold the authorship of an article with one of the highest traffic on Sribu's site. The said article is also successfully <strong><a href="https://www.google.com/search?q=contoh+kemasan+produk" target="blank">featured as a Google Snippet</a></strong>, securing the highly-competitive keyword '<em>Contoh Kemasan Produk</em>' for Sribu. 
                       </div>
                     </div>
 
@@ -110,15 +110,15 @@ export default function About() {
                       <div className="col-sm-2"><div className="text-grey-light"><strong> 2017-2019</strong></div></div>
                       <div className="col-sm-4"><img src="img/zenius logo.jpg" style={{height: '74px', width: 'auto'}} alt="" className="img-fluid mb20 mt20" /></div>
                       <div className="col-sm-6"><div className="text-uppercase"><strong>Content Marketing &amp; Social Media Specialist </strong></div></div>
-                      <div className="fs18 text-grey mt50 mb50 col-sm-12">It's always good to receive positive and constructive feedback for your work - from clients and moreover, from designers!</div>
+                      <div className="fs18 text-grey mt50 mb50 col-sm-12">Write and/or produce social media posts such as infographics &amp; hundreds of IG short videos, write critically-acclaimed articles on blog.zenius.net, partake in the production of YouTube videos and YouTube Live</div>
 
                     </div>
 
                     <div className="row align-items-center mb35 wow fadeInRight" data-wow-delay=".5s">
                       <div className="col-sm-2"><div className="text-grey-light"><strong>2013-2017 </strong></div></div>
                       <div className="col-sm-4"><img src="img/zenius logo.jpg" style={{height: '74px', width: 'auto'}} alt="" className="img-fluid mb20 mt20" /></div>
-                      <div className="col-sm-6"><div className="text-uppercase"><strong>Business Development &amp; Developer</strong></div></div>
-                      <div className="fs18 text-grey mt50 mb50 col-sm-12">It's always good to receive positive and constructive feedback for your work - from clients and moreover, from designers!</div>
+                      <div className="col-sm-6"><div className="text-uppercase"><strong>Content Manager &amp; Business Development Officer</strong></div></div>
+                      <div className="fs18 text-grey mt50 mb50 col-sm-12">Partake in the development of various new business units. Manage the production of contents as a product.</div>
 
                     </div>
                   </div>
@@ -138,48 +138,48 @@ export default function About() {
                     <div className="col-md-4 col-6">
                       <ul className="nav flex-column text-uppercase fs14 text-bold">
                         <li className="nav-item">
-                          <a className="active" href="#">Logo Design</a>
+                          <a className="active" >Creative Writing</a>
                         </li>
                         <li className="nav-item">
-                          <a href="#">Brand Guide</a>
+                          <a >Scriptwriting</a>
                         </li>
                         <li className="nav-item">
-                          <a href="#">Package Design</a>
+                          <a >Content Research</a>
                         </li>
                         <li className="nav-item">
-                          <a href="#">Poster design</a>
-                        </li>
-                      </ul>
-                    </div>
-                    <div className="col-md-4 col-6">
-                      <ul className="nav flex-column text-uppercase fs14 text-bold">
-                        <li className="nav-item">
-                          <a href="#">Flayer design</a>
-                        </li>
-                        <li className="nav-item">
-                          <a href="#">Advertising</a>
-                        </li>
-                        <li className="nav-item">
-                          <a href="#">Web design</a>
-                        </li>
-                        <li className="nav-item">
-                          <a href="#">web advertising</a>
+                          <a >Copywriting</a>
                         </li>
                       </ul>
                     </div>
                     <div className="col-md-4 col-6">
                       <ul className="nav flex-column text-uppercase fs14 text-bold">
                         <li className="nav-item">
-                          <a href="#">Icon design</a>
+                          <a >Blog Marketing</a>
                         </li>
                         <li className="nav-item">
-                          <a href="#">Illustration</a>
+                          <a >E-Mail Marketing</a>
                         </li>
                         <li className="nav-item">
-                          <a href="#">Photography</a>
+                          <a >Social Media Marketing</a>
                         </li>
                         <li className="nav-item">
-                          <a href="#">Seo</a>
+                          <a >SEO</a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div className="col-md-4 col-6">
+                      <ul className="nav flex-column text-uppercase fs14 text-bold">
+                        <li className="nav-item">
+                          <a >Front-End Development</a>
+                        </li>
+                        <li className="nav-item">
+                          <a >Web Design</a>
+                        </li>
+                        <li className="nav-item">
+                          <a >UI/UX</a>
+                        </li>
+                        <li className="nav-item">
+                          <a >Photography</a>
                         </li>
                       </ul>
                     </div>
@@ -213,7 +213,7 @@ export default function About() {
                     <div className="mb20">
                       <div className="text-uppercase mb-2">JavaScript</div>
                       <div className="progress">
-                        <div className="progress-bar bg-primary" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"><div className="progress-value">80</div></div>
+                        <div className="progress-bar bg-primary" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"><div className="progress-value">80%</div></div>
                       </div>
                     </div>
                     <div className="mb20">
@@ -229,6 +229,12 @@ export default function About() {
                       </div>
                     </div>
                     <div className="mb20">
+                      <div className="text-uppercase mb-2">Figma</div>
+                      <div className="progress">
+                        <div className="progress-bar bg-primary" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"><div className="progress-value">85%</div></div>
+                      </div>
+                    </div>
+                    <div className="mb20">
                       <div className="text-uppercase mb-2">Adobe Photoshop &amp; Illustrator</div>
                       <div className="progress">
                         <div className="progress-bar bg-primary" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"><div className="progress-value">85%</div></div>
@@ -240,12 +246,18 @@ export default function About() {
                         <div className="progress-bar bg-primary" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"><div className="progress-value">75%</div></div>
                       </div>
                     </div>
+                    <div className="mb20">
+                      <div className="text-uppercase mb-2">Panasonic Mirrorless Lumix G</div>
+                      <div className="progress">
+                        <div className="progress-bar bg-primary" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"><div className="progress-value">80%</div></div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div className="section-item text-left">
+            {/* <div className="section-item text-left">
               <div className="row">
                 <div className="col-md-5 mb-2">
                   <h2 className="mb-1 font-libre fs30">Notable Achievements</h2>
@@ -281,7 +293,7 @@ export default function About() {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
 
           </div>
         </div>
