@@ -135,8 +135,12 @@ export default function Home() {
                   <div className="col-sm-4">
                     <div className="slide-num num">03</div>
                     <div className="slide-title">
-                      <h2 className="font-teko h1">Learn More<br /> About Me</h2>
+                      <h2 className="font-teko h1">Get to know me better   </h2>
                     </div>
+                    <div className="slide-body wow fadeInRight" data-wow-delay=".2s" data-wow-duration="1.2s">
+                        <h3 className="slide-title-sub font-teko">About Me</h3>
+                        <div className="slide-descr">My work experiences, tools proficiency &amp; etc.</div>
+                      </div>
                   </div>
                 </div>
                 <a className="btn btn-primary mr-4" href="/about-me">My Background  <i className="icon ion-ios-arrow-right"></i></a>
