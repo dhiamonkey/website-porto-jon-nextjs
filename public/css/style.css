@@ -1626,7 +1626,6 @@ input:focus {
   vertical-align: middle;
   width: 4.75rem;
   height: 3.125rem;
-  margin-left: 2.5rem;
 }
 
 .section {
@@ -3263,7 +3262,7 @@ a:hover .zooming img {
 .home-horizontal .h1 {
   margin-left: -.25rem;
   margin-bottom: 4.07407407vmin;
-  font-size: 12.03703704vmin;
+  font-size: 12vmin;
   text-transform: uppercase;
   line-height: .92307692;
   font-weight: normal;
@@ -3631,11 +3630,11 @@ a.btn-play i {
 }
 
 .dark-horizontal .horizontal-controls button {
-  color: #666666;
+  color: #ffffff;
 }
 
 .dark-horizontal .horizontal-controls button:hover {
-  color: #ffffff;
+  color: #FFC700;
 }
 
 .dark-horizontal .social-rounded-fixed a {
@@ -4963,7 +4962,7 @@ a.minimal-item:hover {
 }
 
 .h2-flash {
-  margin-bottom: 6rem;
+  margin-bottom: 2rem;
   font-size: 3rem;
   line-height: 1.25;
 }

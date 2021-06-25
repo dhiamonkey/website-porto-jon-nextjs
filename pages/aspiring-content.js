@@ -72,7 +72,7 @@ export default function AspiringContent() {
   <Head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=0"/>
-    <meta name="description" content="Lewis - Creative Portfolio HTML Template" />
+    <meta name="description" content="" />
 
     <title>Dhia's Portfolio - Aspiring Contents</title>
 
@@ -106,10 +106,10 @@ export default function AspiringContent() {
 
         <div className="section section-content">
           <div className="container">
-            <div className="row justify-content-md-center">
-              <div className="col-lg-10">
-                <h3 className="section-item-title-xs">featured works</h3>
-                <h1 className="h2-flash font-abril">Bigger, Bolder &amp; Better</h1>
+            <div className="row ">
+              <div className="col-lg-11">
+                <h1 className="h2-flash font-abril">Aspiring Contents</h1>
+                <h4 className="slide-descr">More than just a means of <u>branding</u>, these works are aimed to entice the emotion, shift the paradigm, and/or persuade the audience to take action.</h4>
 
                 <ul className="nav nav-inline parallax-link a-grid-filter">
                   <li className="nav-item active"><a data-filter="*" data-text="All">All</a></li>
@@ -122,7 +122,7 @@ export default function AspiringContent() {
               </div>
             </div>
 
-            <div className="project-list-metro a-grid row">
+            <div className="project-list-metro a-grid">
              {portoData.map((item, index) => <ThumbnailSize key={index} portoData={item}/>)} 
               {/* <div className="grid-item category-web category-branding col-md-6 col-lg-8 wow fadeInUp" data-wow-delay=".3s">
                 <a href="single-project-branding.html">

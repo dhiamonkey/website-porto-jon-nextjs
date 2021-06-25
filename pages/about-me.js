@@ -85,9 +85,11 @@ export default function About() {
                       <div className="col-sm-2"><div className="text-grey-light"><strong>2021 - Current</strong></div></div>
                       <div className="col-sm-4"><img src="img/logo eido-black.png" style={{height: '54px', width: 'auto'}} alt="" className="img-fluid mb20 mt20" /></div>
                       <div className="col-sm-6"><div className="text-uppercase"><strong>Writer &amp; Front-End Developer</strong></div></div>
-                      <div className="fs18 text-grey mt50 mb50 col-sm-12">The harsh environment of job-market in the early Covid era has enforced me to develop a new skill in order to just make ends meet. The newly attained skill that I learned is <strong>Front-End Development using ReactJS &amp; NextJS </strong>. 
+                      <div className="fs18 text-grey mt50 mb50 col-sm-12">The harsh environment of the job-market in the early Covid era has enforced me to develop a new skill in order to just make ends meet. The newly attained skill that I learned is <strong>Front-End Development using ReactJS &amp; NextJS </strong>. 
                       <br/> <br/> 
-                      By learning these skills, I acquired the oppurtunity to work at Eido Tech, an up-and-coming digital agency. In just 3 months of hardwork &amp; hard-learning, I help to develop 5+ robust &amp; responsive websites such as: <a href="https://IndonesiaImpactFund.com" target='blank' className="active">IndonesiaImpactFund.com</a>, <a href="https://Quantumventures.vc" target='blank'>Quantumventures.vc</a>, <a href="https://Eido.tech" target='blank'>Eido.tech</a>, etc!
+                      By learning these skills, I acquired the oppurtunity to work at Eido Tech, an up-and-coming digital agency. 
+                      <br/> <br/>
+                      In just <strong>3 months</strong> of hardwork &amp; hard-learning, I help to develop 5+ robust &amp; responsive websites such as: <a href="https://IndonesiaImpactFund.com" target='blank' className="active">IndonesiaImpactFund.com</a>, <a href="https://Quantumventures.vc" target='blank'>Quantumventures.vc</a>, <a href="https://Eido.tech" target='blank'>Eido.tech</a>, etc!
                       <br/> <br/> 
                       In addition to development, I also write our client's web-copies &amp; SEO elements.</div>
 
@@ -110,15 +112,27 @@ export default function About() {
                       <div className="col-sm-2"><div className="text-grey-light"><strong> 2017-2019</strong></div></div>
                       <div className="col-sm-4"><img src="img/zenius logo.jpg" style={{height: '74px', width: 'auto'}} alt="" className="img-fluid mb20 mt20" /></div>
                       <div className="col-sm-6"><div className="text-uppercase"><strong>Content Marketing &amp; Social Media Specialist </strong></div></div>
-                      <div className="fs18 text-grey mt50 mb50 col-sm-12">Write and/or produce social media posts such as infographics &amp; hundreds of IG short videos, write critically-acclaimed articles on blog.zenius.net, partake in the production of YouTube videos and YouTube Live</div>
+                      <div className="fs18 text-grey mt50 mb50 col-sm-12">Write and/or produce social media posts such as infographics &amp; hundreds of IG short videos, articles on blog.zenius.net, partake in the production of YouTube videos and YouTube Live.
+                      <br/> <br/>
+                      As a part of the branding team in 2 years, I was able to contribute in acquiring more than <strong>320K followers on Instagram</strong> (more than triple the original amount of followers), more than <strong>100K subscribers</strong> on YouTube (earning us a <strong>YouTube Silver Play Button</strong>), and consistently preserving high engagement rate &amp; audience quality score (AQS) on all of our social media channels. 
+                      <br/> <br/>
+                      As for achievements on the personal note, I devised one of Zenius'es most-engaging &amp; viewed instagram content series; a series of one-minute short videos explaining univerisitiy's majors &amp; fields of study. Most notably the <a href="https://www.instagram.com/p/Bi6cr2fHJZh/?utm_source=ig_web_copy_link" target="blank"><strong><em>Jurusan Biologi</em> video</strong></a>, which had a crazy amount of engagements on that time. 
+                      <br /><br />
+                      I also co-write one the most <a href="https://www.zenius.net/blog/teori-evolusi" target="blank"><strong>critically-acclaimed article</strong></a> on blog.zenius.net, which went viral and ignited a hot discussion amongst thousands of teenagers about the theory of evolution on <a href="https://www.facebook.com/zeniuseducation/posts/10155615805123575" target="blank">Facebook</a>,  <a href="https://twitter.com/zeniuseducation/status/1252862348454330370?s=20" target="blank">Twitter</a> and <a href="">Instagram</a>. 
+                      </div>
 
                     </div>
 
                     <div className="row align-items-center mb35 wow fadeInRight" data-wow-delay=".5s">
                       <div className="col-sm-2"><div className="text-grey-light"><strong>2013-2017 </strong></div></div>
                       <div className="col-sm-4"><img src="img/zenius logo.jpg" style={{height: '74px', width: 'auto'}} alt="" className="img-fluid mb20 mt20" /></div>
-                      <div className="col-sm-6"><div className="text-uppercase"><strong>Content Manager &amp; Business Development Officer</strong></div></div>
-                      <div className="fs18 text-grey mt50 mb50 col-sm-12">Partake in the development of various new business units. Manage the production of contents as a product.</div>
+                      <div className="col-sm-6"><div className="text-uppercase"><strong>Content Manager &amp; Business Development Officer</strong></div></div> 
+                      <div className="fs18 text-grey mt50 mb50 col-sm-12">Partake in the development of various new business units. Manage the production of contents as a product:
+                      <br />
+                      • Developed a new product in a form of a high-selling english learning book titled <a href="https://isbn.perpusnas.go.id/Account/SearchBuku?searchTxt=zenius+english&searchCat=Judul" target="blank">Zenius English: English for Beginners (ISBN: 978-602-14783-0-1)</a>.
+                      <br />
+                      • Developed interactive tests for mobile app, using clojure programming language.
+                      </div>
 
                     </div>
                   </div>
@@ -133,7 +147,7 @@ export default function About() {
                   <div className="section-item-title-xs-narrow text-primary">What I Have to Offer</div>
                 </div>
                 <div className="col-md-7">
-                  <div className="fs18 text-grey mt5">It's time to bring it all together. Nothing is more rewarding for me than making great work for clients with meaningful missions.</div>
+                  <div className="fs18 text-grey mt5">Throughout several years of my professional careers, I am confident to say that these skills are what I have to offer:</div>
                   <div className="mt55 row">
                     <div className="col-md-4 col-6">
                       <ul className="nav flex-column text-uppercase fs14 text-bold">
