@@ -5767,9 +5767,7 @@ a.minimal-item:hover {
   width: 100%;
 }
 
-.porto-margin {
-  margin: 2vw;
-}
+
 
 .project-list-flash .project-item,
 .project-list-listing .project-item {
@@ -8019,5 +8017,46 @@ a.phone-link {
 @media (min-width: 1600px) {
   html {
     font-size: 16px;
+  }
+}
+
+/* modals */
+
+.modalClose {
+  outline: none;
+  background: none;
+  border: none;
+  position: absolute;
+  right: 20px;
+  top: 5px;
+  width: 32px;
+  height: 32px;
+  opacity: 0.3;
+}
+
+.modalClose:hover {
+  opacity: 1;
+}
+.modalClose:before,
+.modalClose:after {
+  outline: none;
+  border: none;
+  position: absolute;
+  left: 15px;
+  content: " ";
+  height: 30px;
+  width: 5px;
+  background-color: #00aeef;
+}
+.modalClose:before {
+  transform: rotate(45deg);
+}
+.modalClose:after {
+  transform: rotate(-45deg);
+}
+
+@media (max-width: 1600px) {
+  .modal-img {
+    width: 20%;
   }
 }

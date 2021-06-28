@@ -37,8 +37,8 @@ export default function Footer() {
                   <ul className="footer-nav">
                     <li><a href="/">Home</a></li>
                     <li><a href="/aspiring-content">Aspiring Contents</a></li>
-                    <li><a>Selling Content</a></li>
-                    <li><a>Other Works</a></li>
+                    <li><a href="/selling-content">Selling Content</a></li>
+                    <li><a href="/other-works">Other Works</a></li>
                     <li><a href="/about-me">About Me</a></li>
                   </ul>
                 </div>
