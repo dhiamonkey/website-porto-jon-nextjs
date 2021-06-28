@@ -33,30 +33,30 @@ const portoModalStyles = {
 };
 
 const portoData = [{
-  title: 'Muhammad Ali',
-  category: 'Instagram short video',
+  title: 'Sribu E-Book',
+  category: 'Email Marketing',
   size: {width: '20vw', height: '520px'},
   column: 'col-md-6 col-lg-4',
   desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum',
   
 },
 {
-  title: 'Video Jurusan Biologi',
-  category: 'Instagram short video',
+  title: 'Lorem ipsum',
+  category: 'Email Marketing',
   size: {width: '40vw', height: '520px'},
   column: 'col-md-6 col-lg-4',
   desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum',
 },
 {
-  title: 'The Great Women of Science',
-  category: 'Instagram short video',
+  title: 'Lorem ipsum',
+  category: 'Blog Marketing',
   size: {width: '64vw', height: '520px'},
   column: 'col-md-6 col-lg-4',
   desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum',
 },
 {
-  title: 'Pandangan Keliru Evolusi',
-  category: 'Blog article',
+  title: 'Lorem ipsum',
+  category: 'Blog Marketing',
   size: {width: '64vw', height: '520px'},
   column: 'col-md-6 col-lg-12',
   desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum',
@@ -159,13 +159,13 @@ export default function AspiringContent() {
           <div className="container">
             <div className="row ">
               <div className="col-lg-11">
-                <h1 className="h2-flash font-abril">Aspiring Contents</h1>
-                <h4 className="slide-descr">More than just a means of <u>branding</u>, these works are aimed to entice the emotion, shift the paradigm, and/or persuade the audience to take action.</h4>
+                <h1 className="h2-flash font-abril">Marketing Contents</h1>
+                <h4 className="slide-descr">Acquiring desired <u>marketing leads</u> through contents that are data-driven, methodical &amp; meticuluosly researched.</h4>
 
                 <ul className="nav nav-inline parallax-link a-grid-filter">
                   <li className="nav-item active"><a data-filter="*" data-text="All">All</a></li>
-                  <li className="nav-item"><a data-filter=".video" data-text="Instagram Video">Instagram Video</a></li>
-                  <li className="nav-item"><a data-filter=".article" data-text="Blog Article">Blog Article</a></li>
+                  <li className="nav-item"><a data-filter=".Email" data-text="Email Marketing">Email Marketing</a></li>
+                  <li className="nav-item"><a data-filter=".Blog" data-text="Blog Marketing">Blog Marketing</a></li>
                 </ul>
               </div>
             </div>

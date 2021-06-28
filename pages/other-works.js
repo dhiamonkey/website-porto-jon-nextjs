@@ -159,8 +159,8 @@ export default function AspiringContent() {
           <div className="container">
             <div className="row ">
               <div className="col-lg-11">
-                <h1 className="h2-flash font-abril">Aspiring Contents</h1>
-                <h4 className="slide-descr">More than just a means of <u>branding</u>, these works are aimed to entice the emotion, shift the paradigm, and/or persuade the audience to take action.</h4>
+                <h1 className="h2-flash font-abril">Other Works</h1>
+                <h4 className="slide-descr">Here a collection of my works that cannot be categorized as a 'content writing'.</h4>
 
                 <ul className="nav nav-inline parallax-link a-grid-filter">
                   <li className="nav-item active"><a data-filter="*" data-text="All">All</a></li>

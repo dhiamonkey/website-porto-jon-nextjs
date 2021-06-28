@@ -9,6 +9,10 @@ import { withRouter } from 'next/router'
 
 function MyApp({ Component, pageProps, router}) {
 
+  function soon() {
+    alert("Hello, this language mode is still on-progress")
+  }
+
   return (
     <>
     <Head>
@@ -57,9 +61,9 @@ function MyApp({ Component, pageProps, router}) {
           <div className="menu">
             <div className="menu-lang">
               <a href="#" className="menu-lang-item active">English</a>
-              <a href="#" className="menu-lang-item" onclick="alert('Hello, this language mode is still on-progress')">Indonesian</a>
-              <a href="#" className="menu-lang-item" onclick="alert('Hello, this language mode is still on-progress')">Sundanese</a>
-              <a href="#" className="menu-lang-item" onclick="alert('Hello, this language mode is still on-progress')">Dutch</a>
+              <a href="#" className="menu-lang-item" onClick={soon}>Indonesian</a>
+              <a href="#" className="menu-lang-item" onClick={soon}>Sundanese</a>
+              <a href="#" className="menu-lang-item" onClick={soon}>Dutch</a>
             </div>
 
             <div className="menu-main" id="accordion">
@@ -67,15 +71,17 @@ function MyApp({ Component, pageProps, router}) {
                 <li className={router.pathname === '/' ? "active" : ""}>
                   <a data-text="Home"  href="/" role="button" aria-expanded="false" aria-controls="menuHome">Home</a>
                 </li>
-                <li className={router.pathname === '/aspiring-content' && '/selling-content' && '/other-works' ? "active" : ""}>
+                <li className={router.pathname == '/aspiring-content' ? "active" : ""} 
+                    className={router.pathname === '/selling-content' ? "active" : ""} 
+                    className={router.pathname === '/other-works' ? "active" : ""}>
                   <a data-text="Works" data-toggle="collapse" href="#menuWorks" role="button" aria-expanded="false" aria-controls="menuWorks">Works</a>
                   <div className="collapse" id="menuWorks" data-parent="#accordion">
                     <ul>
                       <li className={router.pathname === '/aspiring-content' ? "active" : ""}>
                         <a href="/aspiring-content" className="animsition-link" data-animsition-out-class="fade-out" data-text="Aspiring Contents">Aspiring Contents</a></li>
-                      <li>
+                      <li className={router.pathname === '/selling-content' ? "active" : ""}>
                         <a href="/selling-content" className="animsition-link" data-animsition-out-class="fade-out" data-text="Selling Contents">Selling Contents</a></li>
-                      <li>
+                      <li className={router.pathname === '/other-works' ? "active" : ""}>
                         <a href="/other-works" className="animsition-link" data-animsition-out-class="fade-out" data-text="Other Works">Other Works</a></li>
                     </ul>
                   </div>

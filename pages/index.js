@@ -109,7 +109,7 @@ export default function Home() {
                         <div className="horizontal-service-item-photo"><img src="/img/Bank-note_Monochromatic.png" alt="" className="photo-position" /></div>
                         <div className="horizontal-service-item-title">Content that Sells</div>
                         <div className="horizontal-service-item-descr text-grey">Acquiring desired leads through contents that are data-driven, methodical &amp; meticuluosly researched.</div>
-                        <div className="horizontal-service-item-more"><a className="btn btn-primary btn-sm" href="service.html">Learn more <i className="icon ion-ios-arrow-right"></i></a></div>
+                        <div className="horizontal-service-item-more"><a className="btn btn-primary btn-sm" href="/selling-content">Learn more <i className="icon ion-ios-arrow-right"></i></a></div>
                       </div>
                     </div>
                     <div className="col-lg-4">
@@ -118,7 +118,7 @@ export default function Home() {
                         <div className="horizontal-service-item-photo photo3"><img src="/img/World-wide-web_Flatline.png" alt="" className="photo-position" /></div>
                         <div className="horizontal-service-item-title">Other Works</div>
                         <div className="horizontal-service-item-descr text-grey">From development, UI/UX &amp; photography.</div>
-                        <div className="horizontal-service-item-more"><a className="btn btn-primary btn-sm" href="service.html">Learn more <i className="icon ion-ios-arrow-right"></i></a></div>
+                        <div className="horizontal-service-item-more"><a className="btn btn-primary btn-sm" href="/other-works">Learn more <i className="icon ion-ios-arrow-right"></i></a></div>
                       </div>
                     </div>
                   </div>
@@ -211,7 +211,6 @@ export default function Home() {
  
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
     <script src="js/jqueryInclude.js"></script>
-    <script src="js/smoothscroll.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/animsition.min.js"></script>
