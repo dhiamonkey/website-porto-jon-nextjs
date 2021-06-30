@@ -9,10 +9,16 @@ import { withRouter } from 'next/router'
 
 function MyApp({ Component, pageProps, router}) {
 
-  function soon() {
-    alert("Hello, this language mode is still on-progress")
+  function soonID() {
+    alert("Mohon maaf, mode Bahasa Indonesia masih dalam proses")
   }
-
+  function soonSD() {
+    alert("Hapunten, modé Basa Sunda nuju didamelan")
+  }
+  function soonNL() {
+    alert("Het spijt me, de Nederlandse taalmodule is nog bezig")
+  }
+ 
   return (
     <>
     <Head>
@@ -33,7 +39,7 @@ function MyApp({ Component, pageProps, router}) {
             <div className="brand">
               <a href="/">
                 <div className="brand-name text-texture">DM</div>
-                <div className="brand-text">DhiaMuhammad-netlify.app</div>
+                <div className="brand-text">DhiaMuhammad.netlify.app</div>
               </a>
             </div>
 
@@ -61,9 +67,9 @@ function MyApp({ Component, pageProps, router}) {
           <div className="menu">
             <div className="menu-lang">
               <a href="#" className="menu-lang-item active">English</a>
-              <a href="#" className="menu-lang-item" onClick={soon}>Indonesian</a>
-              <a href="#" className="menu-lang-item" onClick={soon}>Sundanese</a>
-              <a href="#" className="menu-lang-item" onClick={soon}>Dutch</a>
+              <a href="#" className="menu-lang-item" onClick={soonID}>Indonesian</a>
+              <a href="#" className="menu-lang-item" onClick={soonSD}>Sundanese</a>
+              <a href="#" className="menu-lang-item" onClick={soonNL}>Dutch</a>
             </div>
 
             <div className="menu-main" id="accordion">
@@ -71,9 +77,7 @@ function MyApp({ Component, pageProps, router}) {
                 <li className={router.pathname === '/' ? "active" : ""}>
                   <a data-text="Home"  href="/" role="button" aria-expanded="false" aria-controls="menuHome">Home</a>
                 </li>
-                <li className={router.pathname == '/aspiring-content' ? "active" : ""} 
-                    className={router.pathname === '/selling-content' ? "active" : ""} 
-                    className={router.pathname === '/other-works' ? "active" : ""}>
+                <li className={router.pathname === '/aspiring-content' ? "active" : router.pathname === '/selling-content' ? "active" : router.pathname === '/other-works' ? "active" : "false"}>
                   <a data-text="Works" data-toggle="collapse" href="#menuWorks" role="button" aria-expanded="false" aria-controls="menuWorks">Works</a>
                   <div className="collapse" id="menuWorks" data-parent="#accordion">
                     <ul>

@@ -61,10 +61,10 @@ export default function About() {
                   <div className="fs18 text-grey">
                     <div className="row row-60">
                       <div className="col-lg-6 mt5">
-                        My job is to build your website so that it is functional and user friendly but at the same time attractive. My aim is to bring across your message and identity in the most creative way.
+                      You might've been able to tell by looking at the eyes of my homepage bear that I am a ferocious writer that puts integrity, clarity &amp; verity above all else.
                       </div>
                       <div className="col-lg-6 mt5">
-                        I enjoy turning complex problems into simple, beautiful and intuitive interface designs. When I'm not coding or pushing pixels, you'll find me in the pool or on the court shooting hoops.
+                      I am a naturally curious person, eager to learn anything to help me adapt in this modern yet wild age. This is proven by my wide range of skills mastery &amp; tools proficiency
                       </div>
                     </div>
                   </div>
